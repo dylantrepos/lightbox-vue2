@@ -10,7 +10,7 @@ import store from './LightboxStore'
 export default {
     data() {
         return {
-            state: store.state
+            state: store.state,
         }
     },
     computed: {

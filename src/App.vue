@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <a href="http://www.picsum.photos/id/1003/800/600" v-lightbox>
-      <img src="http://www.picsum.photos/id/1003/150/150" alt="">
+    <a :href="'http://www.picsum.photos/id/105' + n + '/800/600'" v-lightbox v-for="n in 9" :key="n"> 
+      <img :src="'http://www.picsum.photos/id/105' + n + '/150/150'" alt="">
     </a>
     <LightboxComponent></LightboxComponent>
   </div>

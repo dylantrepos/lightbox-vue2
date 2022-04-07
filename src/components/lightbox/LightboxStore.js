@@ -2,8 +2,17 @@ class LightboxStore {
 
     constructor () {
         this.state = {
-            image: null
+            images: [],
+            index: false
         }
+    }
+
+    addImage (url) {
+        return this.state.images.push(url)
+    }
+
+    open(index) {
+        this.state.index = index
     }
 }
 
