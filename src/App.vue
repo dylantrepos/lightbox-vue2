@@ -3,16 +3,18 @@
     <a href="http://www.picsum.photos/id/1003/800/600" v-lightbox>
       <img src="http://www.picsum.photos/id/1003/150/150" alt="">
     </a>
+    <LightboxComponent></LightboxComponent>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import LightboxComponent from './components/lightbox/LightboxComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LightboxComponent
   }
 }
 </script>
