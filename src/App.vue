@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
 import LightboxComponent from './components/lightbox/LightboxComponent.vue'
 
 export default {
